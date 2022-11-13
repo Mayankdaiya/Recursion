@@ -10,7 +10,7 @@ public class bubble_sort {
         for(int i=0;i<n;i++) System.out.print(arr[i]);
     }
     public static void sortArr(int[] arr,int n,int in){
-        if(n==0) return;;
+        if(n==0) return;
         if(in<n){
             if(arr[in]>arr[in+1]){
                 int t=arr[in];
