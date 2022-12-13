@@ -12,8 +12,8 @@
 //    public static void main(String[] args) {
 //        Scanner sc=new Scanner(System.in);
 //        int n=sc.nextInt();
-//        System.out.println(countZeroes(n,0));
-//
+//        System.out.println(countZeroes(
+import java.util.Queue;
 import java.util.Scanner;
 //code to count number of zeroes in a user inputted number
 
@@ -26,7 +26,9 @@ public class coun_zeroes {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+
         int n=sc.nextInt();
         System.out.println(countZeroes(n,0));
     }
 }
+
