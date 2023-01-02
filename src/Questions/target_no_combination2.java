@@ -11,14 +11,14 @@ public class target_no_combination2 {
     }
     public static ArrayList<String> getTheCombination(int num, String ans){
         if(num==0){
-            ArrayList<String> list=new ArrayList<>();
-            list.add(ans);
-            return list;
+            ArrayList<String> arr=new ArrayList<>();
+            arr.add(ans);
+            return arr;
         }
-        ArrayList<String> list=new ArrayList<>();
+        ArrayList<String> arr=new ArrayList<>();
         for(int i=1;i<=num;i++){
-            if(num-i>=0) list.addAll(getTheCombination(num-i,ans+i));
+            if(num-i>=0) arr.addAll(getTheCombination(num-i,ans+i));
         }
-        return list;
+        return arr;
     }
 }
