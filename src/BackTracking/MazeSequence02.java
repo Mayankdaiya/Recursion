@@ -16,9 +16,9 @@ public class MazeSequence02 {
             return list;
         }
         ArrayList<String> list=new ArrayList<>();  //for storing the sequence in arraylist
-        if(i>1) list.addAll(printSubsequence(i-1,j,ans+'D'));   // D for down movement in grid
-        if(j>1) list.addAll(printSubsequence(i,j-1,ans+'R'));   // R for right movement in grid
-        if(j>1 && i>1) list.addAll(printSubsequence(i-1,j-1,ans+'V'));   // V for diagonally movement in grid
+        if(i>1) list.addAll(printSubsequence(i-1,j,ans+'H'));   // H for horizontally down movement in grid
+        if(j>1) list.addAll(printSubsequence(i,j-1,ans+'V'));   // V for vertically right movement in grid
+        if(j>1 && i>1) list.addAll(printSubsequence(i-1,j-1,ans+'D'));   // D for diagonally movement in grid
         return list;
     }
 }
