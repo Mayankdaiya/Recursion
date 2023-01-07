@@ -2,7 +2,7 @@ package Questions;
 
 import java.util.Scanner;
 
-public class target_no_combination3 {
+public class target_no_combination03 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
