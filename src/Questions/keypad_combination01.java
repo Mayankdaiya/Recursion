@@ -2,7 +2,7 @@ package Questions;
 
 import java.util.Scanner;
 
-public class keypad_combination {
+public class keypad_combination01 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String str= sc.next();
