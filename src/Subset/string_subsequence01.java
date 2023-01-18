@@ -7,6 +7,7 @@ public class string_subsequence01 {
         String str=sc.next();
         printSubsequence(str,"");
     }
+
     public  static void printSubsequence(String str,String ans){
         if(str.isEmpty()){
             System.out.println(ans);
